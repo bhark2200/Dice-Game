@@ -1,0 +1,17 @@
+.row {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &_2col_6 {
+        width: 45%;
+        float: left;
+    }
+
+    &_3col_4 {
+        width: 31.3%;
+        float: left;
+
+    }
+
+}

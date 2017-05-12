@@ -1,0 +1,11 @@
+.bttn {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: Red;
+    color: white;
+
+    &--roll {
+        padding: 10px 40px;
+    }
+}

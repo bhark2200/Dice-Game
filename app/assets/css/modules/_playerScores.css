@@ -1,0 +1,26 @@
+.playerScores {
+    border: 2px black solid;
+    background-color: blue;
+    margin-left: 9%;
+    padding: 20px 10px 0 10px;
+  
+    &_tables {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    }
+
+    &_tables_caption {
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+td {
+    padding-top: 10px;
+    border: 1px solid white;
+}
+
+th {
+    border: 1px solid white;
+}
+}

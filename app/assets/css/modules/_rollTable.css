@@ -1,0 +1,23 @@
+
+.rollTable {
+    margin-right: auto;
+    margin-left: auto;
+    
+
+    &--all{
+        border: 2px black solid;
+        height: 400px;
+        margin-bottom: 10px;
+        
+    }
+
+    &_head {
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+
+    &_h2 {
+        margin: 11px;
+    }
+
+}

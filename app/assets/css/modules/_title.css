@@ -1,0 +1,40 @@
+.title {   
+    margin-bottom: 20px;
+   
+@mixin clearfix;
+   
+    &__header {
+         color: blue;
+         background-color: red;
+         margin-top: 0;
+         border: 2px solid black;
+    }
+
+    &_height {
+        height: 150px;
+    }
+
+    &__center {
+        text-align: center;
+    }
+
+    &__heading {
+        padding-top: 0px;
+        margin-bottom: 10px;
+        font-size: 3rem;
+    }
+
+    &__label {
+        font-size: 1.3rem;
+        display: block;
+        margin-top: -10px;
+        margin-bottom: 10px;        
+    }
+
+    &__select {
+        color: red;
+        background-color: blue;
+    }
+
+
+}

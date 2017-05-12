@@ -1,0 +1,97 @@
+<<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Dice Game</title>
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/temp/styles.css">
+</head>
+<body>
+<div class="title row">
+    <div class="title__header title__center row_2col_6 title_height">
+        <h1 class="title__heading">Dice Game</h1>
+        <label for="howManyPlayers" class="title__label">How Many Players</label>
+        <select class="title__select" name="howManyPlayers" id="howManyPlayers">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+        </select>
+    </div>
+    <div class="playerScores title_height row_2col_6">
+        <table style="width:100%" class="playerScores_tables">
+            <caption class="playerScores_tables_caption">Player Scores</caption>
+            <tr>
+                <th>Player 1</th>
+                <th>Player 2</th>
+                <th>Player 3</th>
+                <th>Player 4</th>
+            </tr>
+            <tr>
+                <td>1000</td>
+                <td>1299</td>
+                <td>4599</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="row">
+    <div  class="rollTable row_2col_6">
+        <div class="rollTable--all">
+            <div class="rollTable_head">
+                <h2 class="rollTable_h2">Roll Dice Here</h2>
+            </div>
+            <div class="row dice_top">
+                <div class="row_3col_4 dice_blocks">
+                    <img class="dice_images" src="assets/images/dice2.png">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                    <img class="dice_images" src="assets/images/dice2.png">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row_3col_4 dice_blocks">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+            </div>
+            
+        </div>
+        <button class="bttn bttn--roll">Roll</button>
+    </div>
+    <div class="playerTable row_2col_6">
+        <div class="playerTable--all">
+            <div class="playerTable--head">
+                <p class="playerTable--player playerTable--p">Current Player: </p>
+                <p class="playerTable--score playerTable--p">Current Score: </p>
+            </div>
+                <div class="row dice_top">
+                <div class="row_3col_4 dice_blocks">
+                    <img class="dice_images" src="assets/images/dice2.png">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row_3col_4 dice_blocks">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+                <div class="row_3col_4 dice_blocks">
+                </div>
+            </div>
+        </div>
+        <button class="bttn">Keep Score</button>
+    </div> 
+</div>
+
+
+</body>
+</html>
