@@ -3,7 +3,7 @@
 <head>
 
     <title>Dice Game</title>
-    <script src="assets/javascript/app.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="assets/temp/styles.css">
 </head>
 <body>
@@ -43,26 +43,30 @@
                 <h2 class="rollTable_h2">Roll Dice Here</h2>
             </div>
             <div class="row dice_top">
-                <div class="row_3col_4 dice_blocks">
-                    <img class="dice_images" src="assets/images/dice2.png">
+                <div id="dice_roll_block1" class="row_3col_4 dice_blocks">
+                   
                 </div>
-                <div class="row_3col_4 dice_blocks">
-                    <img class="dice_images" src="assets/images/dice2.png">
+                <div id="dice_roll_block2" class="row_3col_4 dice_blocks">
+                    
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_roll_block3" class="row_3col_4 dice_blocks">
+                    
                 </div>
             </div>
             <div class="row">
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_roll_block4" class="row_3col_4 dice_blocks">
+                    
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_roll_block5" class="row_3col_4 dice_blocks">
+                   
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_roll_block6" class="row_3col_4 dice_blocks">
+                    
                 </div>
             </div>
             
         </div>
-        <button class="bttn bttn--roll">Roll</button>
+        <button id="roll" class="bttn bttn--roll">Roll</button>
     </div>
     <div class="playerTable row_2col_6">
         <div class="playerTable--all">
@@ -71,20 +75,20 @@
                 <p class="playerTable--score playerTable--p">Current Score: </p>
             </div>
                 <div class="row dice_top">
-                <div class="row_3col_4 dice_blocks">
-                    <img class="dice_images" src="assets/images/dice2.png">
+                <div id="dice_score_block1" class="row_3col_4 dice_blocks">
+                    
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_score_block2" class="row_3col_4 dice_blocks">
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_score_block3" class="row_3col_4 dice_blocks">
                 </div>
             </div>
             <div class="row">
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_score_block4" class="row_3col_4 dice_blocks">
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_score_block5" class="row_3col_4 dice_blocks">
                 </div>
-                <div class="row_3col_4 dice_blocks">
+                <div id="dice_score_block6" class="row_3col_4 dice_blocks">
                 </div>
             </div>
         </div>
@@ -94,4 +98,5 @@
 
 
 </body>
+<script src="assets/javascript/app.js"></script>
 </html>
